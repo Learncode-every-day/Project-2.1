@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #1ebfc1;
+    --font-heading: #0d1111;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+/* ======= Common ======= */
+a {
+    text-decoration: none;
+}
+
+.main-content {
+    width: 1110px;
+    /* Cách mỗi lề trái phải 24px */
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading {
+    color: var(--font-heading);
+    font-weight: 700;
+}
+
+.heading.lv1 {
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 1.16; /* 116.129% */
+}
+
+.heading.lv2 {
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.33; /* 133.333% */
+}
+
+.heading.lv3 {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.desc {
+    color: #9da6a5;
+    font-size: 1.6rem;
+    line-height: 1.6875; /* 168.75% */
+}
+
+/* ===== Header ===== */
+.header {
+    background: #fff;
+}
+
+.header.fixed {
+    position: sticky;
+    top: -45px; /* 12 - 57 */
+    z-index: 1;
+}
+
+.header .body {
+    padding-top: 57px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .body .list {
+    width: 446px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .list .item.active {
+    font-weight: 600;
+}
+
+.header .body .list a {
+    color: #2f3a3b;
+    font-size: 1.6rem;
+}
+
+.header .action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .action .action-btn:first-child {
+    margin-right: 24px;
+    color: #494949;
+    font-size: 1.6rem;
+}
+
+.header .action .action-btn:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 108px;
+    height: 48px;
+    border: 1px solid #1ebfc1;
+    border-radius: 6px;
+    color: #1ebfc1;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
