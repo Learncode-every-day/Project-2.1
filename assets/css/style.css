@@ -180,7 +180,7 @@ a {
 
 .hero-summary .item .desc {
     color: #0d1111;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 500;
 }
 
@@ -231,6 +231,10 @@ a {
     box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
 }
 
+.hero-summary .item:nth-child(2) .desc {
+    text-align: center;
+}
+
 .hero-summary .item:nth-child(2) .layout-2-1 {
     position: relative;
     margin-top: 16px;
@@ -250,7 +254,7 @@ a {
 
 .hero-summary .item:nth-child(2) .layout-2-1-2 {
     position: absolute;
-    width: 50.23%;
+    width: 62%;
     height: 6px;
     border-radius: 99px;
     background: #fb9899;
