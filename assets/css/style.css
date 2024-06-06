@@ -22,7 +22,7 @@ a {
 }
 
 .main-content {
-    width: 1110px;
+    width: 1170px;
     /* Cách mỗi lề trái phải 24px */
     max-width: calc(100% - 48px);
     margin-left: auto;
@@ -175,7 +175,7 @@ a {
     width: 576px;
     height: 631px;
     object-fit: cover;
-    margin-bottom: 79px;
+    margin-bottom: 0 136px 79px 0;
 }
 
 .hero-summary .item .desc {
@@ -328,8 +328,9 @@ a {
 
 /* === Features bottom === */
 .features .features-bottom {
+    width: 1024px;
     display: flex;
-    gap: 180px;
+    gap: 150px;
 }
 
 .features .features-bottom .item {
@@ -348,4 +349,100 @@ a {
     color: #9da6a5;
     font-size: 1.6rem;
     line-height: 1.6875; /* 168.75% */
+}
+
+/* ===== Courses ===== */
+.courses .sub-heading .page-separator {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.courses .sub-heading .desc {
+    width: 525px;
+    margin: 19px 0 79px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    line-height: 1.78; /* 177.778% */
+}
+
+.courses .course-group {
+    display: flex;
+}
+
+.courses .course-group .item {
+    position: relative;
+    width: 33.33%;
+    gap: 47px;
+}
+
+.courses .course-group .item .img {
+    display: inline-block;
+    border-radius: 8px;
+    opacity: 0.5;
+    background: #d0efed;
+    width: 359px;
+    height: 393px;
+    object-fit: cover;
+}
+
+.courses .course-group .main-info {
+    position: absolute;
+    top: 322px;
+    left: 17px;
+    right: 17px;
+    width: 325px;
+    height: 195px;
+    padding: 18px 25px 29px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+
+.course-group .item .price {
+    margin: 16px 0 6px;
+    color: #767e7e;
+    font-size: 1.6rem;
+}
+
+.course-group .item .desc {
+    color: #9da6a5;
+    font-size: 1.3rem;
+}
+
+.course-group .item .info {
+    margin-top: 18px;
+    display: flex;
+}
+
+.course-group .item .empty {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.course-group .item .empty::before {
+    display: block;
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #1ebfc1;
+    margin-right: 10px;
+}
+
+.course-group .item .time {
+    display: flex;
+    align-items: center;
+}
+
+.course-group .item .time::before {
+    display: block;
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #1ebfc1;
+    margin-right: 10px;
 }
