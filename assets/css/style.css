@@ -303,3 +303,49 @@ a {
     object-fit: cover;
     border-radius: 50%;
 }
+
+/* ===== Features ===== */
+/* === Features top === */
+.features .features-top {
+    width: 591px;
+}
+
+.features .main-content .page-separator {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.features .main-content .heading {
+    padding: 18px 0;
+}
+
+.features .main-content .desc {
+    color: #767e7e;
+    font-size: 1.7rem;
+    margin-bottom: 80px;
+}
+
+/* === Features bottom === */
+.features .features-bottom {
+    display: flex;
+    gap: 180px;
+}
+
+.features .features-bottom .item {
+    width: 33.33%;
+}
+
+.features-bottom .item .title {
+    margin-top: 26px;
+    color: #0d1111;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.features-bottom .item .desc {
+    margin: 16px 0 130px;
+    color: #9da6a5;
+    font-size: 1.6rem;
+    line-height: 1.6875; /* 168.75% */
+}
