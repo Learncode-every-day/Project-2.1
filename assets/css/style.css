@@ -24,7 +24,7 @@ a {
 .main-content {
     width: 1170px;
     /* Cách mỗi lề trái phải 24px */
-    max-width: calc(100% - 48px);
+    max-width: calc(100vw - 48px);
     margin-left: auto;
     margin-right: auto;
 }
@@ -63,7 +63,9 @@ a {
 .header.fixed {
     position: sticky;
     top: -45px; /* 12 - 57 */
+    padding-bottom: 15px;
     z-index: 1;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.05);
 }
 
 .header .body {
@@ -120,7 +122,7 @@ a {
 
 /* === Hero left === */
 .hero .content-block {
-    width: 48.11%;
+    width: 51%;
 }
 
 .hero .heading::before {
@@ -176,6 +178,7 @@ a {
     height: 631px;
     object-fit: cover;
     margin-bottom: 0 136px 79px 0;
+    margin-bottom: 209px;
 }
 
 .hero-summary .item .desc {
@@ -369,12 +372,14 @@ a {
 
 .courses .course-group {
     display: flex;
+    gap: 47px;
+    margin-left: -1px;
 }
 
 .courses .course-group .item {
     position: relative;
-    width: 33.33%;
-    gap: 47px;
+    flex: 1;
+    margin-bottom: 389px;
 }
 
 .courses .course-group .item .img {
@@ -445,4 +450,67 @@ a {
     border-radius: 50%;
     background: #1ebfc1;
     margin-right: 10px;
+}
+
+/* ===== Stance ===== */
+.stance .body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stance .body strong {
+    color: #0d1111;
+    text-align: center;
+    font-size: 6.2rem;
+    font-weight: 700;
+}
+
+.stance .body .desc {
+    color: #767e7e;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+/* ===== Guide ===== */
+.guide {
+    margin-top: 264px;
+}
+
+.guide .advise-group .advise {
+    width: 419px;
+}
+
+.guide .advise .icon {
+    margin: 37px 0 27px;
+}
+
+.guide .advise .desc {
+    color: #5d6564;
+    font-size: 3rem;
+    line-height: 1.5; /* 150% */
+    margin-bottom: 33px;
+}
+
+.guide .advise .author {
+    margin-left: 11px;
+    position: relative;
+    color: #767e7e;
+    font-size: 1.6rem;
+}
+
+.guide .advise .author::before {
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 2px;
+    top: 50%;
+    left: -11px;
+    background: #070707;
+    transform: translateY(-50%);
+}
+
+.guide .advise .author strong {
+    color: #070707;
+    font-size: 1.6rem;
+    font-weight: 500;
 }
