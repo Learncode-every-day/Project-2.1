@@ -412,11 +412,6 @@ a {
     position: relative;
     flex: 1;
     margin-bottom: 389px;
-    transition: 0.25s;
-}
-
-.courses .course-group .item:hover {
-    transform: translateY(-10px);
 }
 
 .courses .course-group .item .img {
@@ -428,10 +423,6 @@ a {
     width: 359px;
     height: 393px;
     object-fit: cover;
-}
-
-.course-group .course-group .item:hover .img {
-    opacity: 1;
 }
 
 .courses .course-group .main-info {
@@ -461,12 +452,6 @@ a {
 .course-group .item .info {
     margin-top: 18px;
     display: flex;
-}
-
-.course-group .item .empty,
-.course-group .item .time {
-    color: #9da6a5;
-    font-size: 1.4rem;
 }
 
 .course-group .item .empty {

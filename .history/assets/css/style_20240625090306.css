@@ -463,12 +463,6 @@ a {
     display: flex;
 }
 
-.course-group .item .empty,
-.course-group .item .time {
-    color: #9da6a5;
-    font-size: 1.4rem;
-}
-
 .course-group .item .empty {
     display: flex;
     align-items: center;
