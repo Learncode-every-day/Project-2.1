@@ -10,7 +10,7 @@
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
-    transition: 0.3s;
+    transition: 0.25s;
 }
 
 body {
@@ -222,13 +222,10 @@ a {
 }
 
 .hero-summary .item .desc {
+    margin-right: -18px;
     color: #0d1111;
     font-size: 1rem;
     font-weight: 500;
-}
-
-.hero-summary .item:first-child .desc {
-    margin-right: -18px;
 }
 
 /* = Item 1 = */

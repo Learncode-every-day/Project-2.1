@@ -10,7 +10,7 @@
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
-    transition: 0.3s;
+    transition: 0.25s;
 }
 
 body {
@@ -174,11 +174,9 @@ a {
     border-radius: 14px;
     background: #1ebfc1;
     box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
-    cursor: pointer;
 }
 
 .hero .content-block .hero-cta a {
-    padding: 24px 37px;
     color: #fff;
     text-align: center;
     font-size: 1.8rem;
@@ -225,10 +223,6 @@ a {
     color: #0d1111;
     font-size: 1rem;
     font-weight: 500;
-}
-
-.hero-summary .item:first-child .desc {
-    margin-right: -18px;
 }
 
 /* = Item 1 = */

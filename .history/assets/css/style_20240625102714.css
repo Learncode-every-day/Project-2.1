@@ -10,7 +10,7 @@
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
-    transition: 0.3s;
+    transition: 0.25s;
 }
 
 body {
@@ -74,10 +74,6 @@ a {
 
 .word-break-all {
     word-break: break-all;
-}
-
-.btn {
-    cursor: pointer;
 }
 
 /* ===== Header ===== */
@@ -174,11 +170,9 @@ a {
     border-radius: 14px;
     background: #1ebfc1;
     box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
-    cursor: pointer;
 }
 
 .hero .content-block .hero-cta a {
-    padding: 24px 37px;
     color: #fff;
     text-align: center;
     font-size: 1.8rem;
@@ -187,24 +181,15 @@ a {
 
 .hero .button-group {
     display: flex;
-    align-items: center;
 }
 
 .hero .button-group .play-button {
-    position: relative;
-    margin-top: 52px;
     width: 62px;
     height: 62px;
     border: none;
     background: #fff;
     border-radius: 50%;
     box-shadow: 0 2px 1px #f7f7f7;
-}
-
-.hero .button-group .play-button img {
-    position: absolute;
-    left: 27px;
-    top: 24px;
 }
 
 /* === Hero right === */
@@ -223,12 +208,8 @@ a {
 
 .hero-summary .item .desc {
     color: #0d1111;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 500;
-}
-
-.hero-summary .item:first-child .desc {
-    margin-right: -18px;
 }
 
 /* = Item 1 = */
@@ -448,15 +429,14 @@ a {
     margin-top: 60px;
     display: inline-block;
     border-radius: 8px;
-    opacity: 0.6;
+    opacity: 0.5;
     background: #d0efed;
     width: 359px;
     height: 393px;
     object-fit: cover;
-    transition: 0.5s;
 }
 
-.courses .course-group .item:hover .img {
+.course-group .course-group .item:hover .img {
     opacity: 1;
 }
 
@@ -537,7 +517,6 @@ a {
     text-align: center;
     font-size: 6.2rem;
     font-weight: 700;
-    line-height: normal;
 }
 
 .stance .body .desc {
